@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Figma : variables et affichage
+title: Variables et affichage
 permalink: /figma/
 published: true
 date: 2024
