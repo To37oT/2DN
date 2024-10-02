@@ -7,6 +7,16 @@ date: 2024
 ---
 
 # Variables et affichage
+![image](https://github.com/user-attachments/assets/93ea4c7f-1fbe-4aba-b051-9424f66d6fcd)
+![image](https://github.com/user-attachments/assets/228c2d74-d8bc-4f42-ac75-81ff0e0fa26a)
+![image](https://github.com/user-attachments/assets/bc44c398-4821-4dd5-a8c3-2625182fc0a7)
+![image](https://github.com/user-attachments/assets/b438493e-5a6f-44b4-9781-eca1c79682ce)
+
+![image](https://github.com/user-attachments/assets/920f215a-082a-4ac0-a71d-525974400e60)
+![image](https://github.com/user-attachments/assets/059a8246-243f-4f08-af13-1e3b27595e77)
+![image](https://github.com/user-attachments/assets/6acf199f-b9e1-4b93-8841-a9ff893e5075)
+![image](https://github.com/user-attachments/assets/435094d1-32d8-4425-bb6d-02658174b493)
+![image](https://github.com/user-attachments/assets/979415da-1125-4174-a4dd-fedd5dbd8902)
 
 ## A)  Présentation des dictionnaires
 
