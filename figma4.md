@@ -97,5 +97,11 @@ En mathématiques, X + (-Y) équivaut à X - Y
 >     Liste 2 : 3
 >     Total : 8 + (-3) = 5
 
+Mécanisme à mettre en place : 
 
+Lorsque je clique sur une liste fermée, je vais ajouter une variable qui mémorise celui qui est cliqué (je clique sur le bouton 3 fermé, je mémorise 3)
+
+Lorsque je clique sur une valeur dans la liste ouverte, j'utilise la valeur mémorisée précédemment pour calculer la différence.
+
+Je profite de ce calcul pour mettre à jour la variable qui calcul la somme 
 
