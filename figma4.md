@@ -53,8 +53,6 @@ Attention, on ne recréé pas de variable une fois **val** créé, on modifie sa
 Pour afficher une variable, créer une zone de texte puis à droite, cliquer pour ajouter une variable
 ![image](https://github.com/user-attachments/assets/e27a200f-f50b-4e0b-a253-1d7421b2a847)<br>
 
-![image](https://github.com/user-attachments/assets/98fe6a4f-be88-4bc2-b200-00f8f4f48784)<br>
-
 ![image](https://github.com/user-attachments/assets/b1913a73-55d9-41e7-96cf-0a79b2858137)<br>
 
 ![image](https://github.com/user-attachments/assets/e3b8a527-939a-4241-8c0a-211a72cf82b4)
@@ -65,3 +63,39 @@ Pour afficher une variable, créer une zone de texte puis à droite, cliquer pou
 
 
 ## Partie 3 : Calculs
+
+L'objectif de cette dernière partie : insérer 2 listes déroulantes et afficher la somme des deux.
+Pour cela, il faut modifier le composant. Lorsqu'une liste sera activée, il faudra faire la différence entre sa valeur d'avant et sa nouvelle valeur et **ajouter** cette différence à la somme totale.
+
+En mathématiques, X + (-Y) équivaut à X - Y
+
+##### Exemple 1 : 
+>     
+>     liste 1 : 0
+>     Liste 2 : 0
+>     Total : 0
+>     
+>Si je passe "Liste 2" à la valeur 3, la différence est de +3 (nouvelle valeur - ancienne valeur = 3 - 0 = 3)
+>
+>J'obtiens alors : 
+>
+>     liste 1 : 0
+>     Liste 2 : 3
+>     Total : 0 + (+3) = 3
+
+##### Exemple 2 : 
+>     
+>     liste 1 : 5
+>     Liste 2 : 2
+>     Total : 7
+>     
+>Si je passe "Liste 1" à la valeur 2, la différence est de -3 (nouvelle valeur - ancienne valeur = 2 - 5 = -3)
+>
+>J'obtiens alors : 
+>
+>     liste 1 : 2
+>     Liste 2 : 3
+>     Total : 8 + (-3) = 5
+
+
+
