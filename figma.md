@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Variables et affichage
-permalink: /figma/
+title: Champs, variables et calculs
+permalink: /figma4/
 published: true
 date: 2024
 ---
