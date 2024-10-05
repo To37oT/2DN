@@ -29,6 +29,7 @@ date: 2024
 <p>il est possible de changer l'opacité le temps de placer l'éléments</p>
 
 ![image](https://github.com/user-attachments/assets/059a8246-243f-4f08-af13-1e3b27595e77)<br>
+
 ![image](https://github.com/user-attachments/assets/6acf199f-b9e1-4b93-8841-a9ff893e5075)
 
 ### 5 - Sur chaque éléments ainsi placé, fabriquer l'interraction de retour.
@@ -64,6 +65,7 @@ Pour afficher une variable, créer une zone de texte puis à droite, cliquer pou
 
 ## Partie 3 : Calculs
 
+### 1 - Mécanisme
 L'objectif de cette dernière partie : insérer 2 listes déroulantes et afficher la somme des deux.
 Pour cela, il faut modifier le composant. Lorsqu'une liste sera activée, il faudra faire la différence entre sa valeur d'avant et sa nouvelle valeur et **ajouter** cette différence à la somme totale.
 
@@ -97,11 +99,20 @@ En mathématiques, X + (-Y) équivaut à X - Y
 >     Liste 2 : 3
 >     Total : 8 + (-3) = 5
 
-Mécanisme à mettre en place : 
+**Mécanisme à mettre en place :** 
 
-Lorsque je clique sur une liste fermée, je vais ajouter une variable qui mémorise celui qui est cliqué (je clique sur le bouton 3 fermé, je mémorise 3)
+Lorsque je clique sur une des 2 listes fermées, je vais mémoriser dans une variable la valeur cliquée (exemple : je clique sur le bouton 3 fermé, je mémorise 3)<br>
+![image](https://github.com/user-attachments/assets/ca8b9b4c-da53-40a5-b11f-5e15f1d34934)<br>
 
-Lorsque je clique sur une valeur dans la liste ouverte, j'utilise la valeur mémorisée précédemment pour calculer la différence.
+![image](https://github.com/user-attachments/assets/4d4b4300-93c2-4be8-9436-adcd64b9d282)
 
-Je profite de ce calcul pour mettre à jour la variable qui calcul la somme 
+Lorsque je clique sur une valeur dans la liste ouverte, j'utilise la valeur mémorisée précédemment pour calculer la différence.<br>
+Je profite de ce calcul pour mettre à jour la variable qui calcul la somme<br> 
+Avant :<br>
+![image](https://github.com/user-attachments/assets/16bbb44f-948e-4070-8feb-d3839eaa0d82)<br>
+Après : <br>
+![image](https://github.com/user-attachments/assets/af84a4c6-867d-4b74-a743-93cfe9826366)
+
+### 2 - Tester
+![image](https://github.com/user-attachments/assets/88c14f1a-12d5-4af1-a4c5-37236a00c695)
 
