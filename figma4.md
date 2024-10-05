@@ -6,7 +6,7 @@ published: true
 date: 2024
 ---
 
-# Variables et affichage
+# Variables et affichage de données
 
 ## PARTIE 1 : Réaliser une liste déroulante
 
