@@ -8,3 +8,4 @@ date: 2024
 # Cours FIGMA
 
 [Partie 4 : Champs, variables et calculs]({{site.baseurl}}/figma4/)<br>
+[PROJET : Réalisation d'un portfolio sur Figma]({{site.baseurl}}/figma_projet/)<br>
