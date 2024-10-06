@@ -32,11 +32,11 @@ Pour résumer, vous serez évalué sur 4 points :
 
 **Pour les points 1 et 3 :**
 Une simple réutilisation des exercices du cours vous amènera à une maitrise fragile
-Une réutilisation personnalisée vous amènera à une maîtrise satisfaisante
-S'approprier les techniques pour produire un contenu innovant vous amènera à une maîtrise très satisfaisante.
+Une réutilisation personnalisée et maîtrisée vous amènera à une maîtrise satisfaisante
+S'approprier les techniques pour produire un contenu innovant de qualité vous amènera à une maîtrise très satisfaisante.
 
 **Pour le point 2 :**
-Il est attendu un document de qualité, dans son organisation et dans les nommages.
+Il est attendu un rendu de qualité, dans son organisation et dans les nommages.
 
 **Pour le point 4 :**
 Le rendu est un point important car souvent irréversible. Le lieu, les moyens, la manière et l'échéance de rendu devront être respectés sur chaque projet.
