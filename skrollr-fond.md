@@ -48,7 +48,7 @@ body { background-image: url("fond.jpg")}
 
 Nous obtenons pour le moment ceci lorsque nous utilisons la souris : 
 
-![1](fond1.webp)
+![1](images/fond1.webp)
 
 **Revenons sur le code précédent :**
 
@@ -72,7 +72,7 @@ body { background-image: url("fond.jpg"); background-attachment: fixed}
 
 Nous obtenons alors ceci :
 
-![2](fond2.webp)
+![2](images/fond2.webp)
 
 Nous avons un fond qui ne bouge que horizontalement. En jouant avec ```background-position-X``` et ```background-position-Y``, nous pouvons obtenir à peu prêt tous les déplacements possibles.
 
