@@ -1,0 +1,104 @@
+---
+layout: default
+title: SkrollR - Faire bouger un personnage
+permalink: /skrollr-personnage/
+published: true
+date: 2024
+---
+
+# SkrollR - Faire bouger un personnage
+
+>- Créer une structure HTML
+>- Connecter un fichier CSS
+>- Connecter le fichier JS et l'avoir activé (lignes du bas)
+>- Avoir une image de personnage
+
+![image](https://github.com/user-attachments/assets/36df5b73-a537-4aca-b285-0ab3da0f5e20)
+
+**Voici le code du HTML, nous pouvons y retrouver le lien CSS, le JS et le fond de l'exemple précédent. Nous reviendrons plus tard sur la ```div```**
+
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-0="background-position-X:0px" data-3000="background-position-X:-3000px">
+
+    <div id="personnage"></div>
+
+<script src="js/skrollr.js"></script>
+<script type="text/javascript">
+    var s = skrollr.init();
+</script>
+
+</body>
+</html>
+```
+
+**Voici le code CSS, il ne contient que l'image en background.**
+
+```css
+body { background-image: url("fond.jpg")}
+```
+
+Nous obtenons pour le moment ceci lorsque nous utilisons la souris : 
+
+![1](fond1.webp)
+
+**Revenons sur le code précédent :**
+
+Le CSS permet de mettre une image en arrière plan du ```body```
+
+La ligne :
+
+```<body data-0="background-position-X:0px" data-3000="background-position-X:-3000px">```
+
+Permet de spécifier que le fond se sera déplacer de ```-3000px``` lorsque nous aurons "scrollé" 3000px (data-3000) (les valeurs sont choisies ici globalement au hasard).
+
+Cependant, le fond subit également le déplacement vertical "classique", ce qui donne cet effet de déplacement vertical ET horizontal.
+
+Pour régler ce problème, nous allons spécifier que notre fond est "fixe".
+
+**Modifier le CSS pour obtenir :** 
+
+```css
+body { background-image: url("fond.jpg"); background-attachment: fixed}
+```
+
+Nous obtenons alors ceci :
+
+![2](fond2.webp)
+
+Nous avons un fond qui ne bouge que horizontalement. En jouant avec ```background-position-X``` et ```background-position-Y``, nous pouvons obtenir à peu prêt tous les déplacements possibles.
+
+Si notre fond se répète à lui même, nous pouvons obtenir un fond sans limite hormis la valeur du ```data-```.
+
+## Propriétés complémentaires
+
+> Les valeurs entre crochets sont au choix.
+
+```background-repeat: [repeat | no-repeat | repeat-x | repeat-y]``` Permet de choisir si un fond se répète (par défaut : OUI)
+
+```background-size: [contain | cover]``` Permet de contraindre un background, soit à couvrir la page (taille réelle, agrandissement si besoin) soit à être contenu (l'image sera toujours visible en entier).
+
+Il est possible de changer d'image sur mobile :
+
+```css
+body {
+    background-image: url("fond.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-width:1000px) {
+    body {
+        background-image: url("fond_mobile.jpg");
+    }
+}
+```
