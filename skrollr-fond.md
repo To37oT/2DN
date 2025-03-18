@@ -48,6 +48,26 @@ date: 2024
 body { background-image: url("fond.jpg")}
 ```
 
-Nous obtenons pour le moment ceci : 
+Nous obtenons pour le moment ceci lorsque nous utilisons la souris : 
 
 ![1](fond1.webp)
+
+**Revenons sur le code précédent :**
+
+Le CSS permet de mettre une image en arrière plan du ```body```
+
+La ligne :
+
+```<body data-0="background-position-X:0px" data-3000="background-position-X:-3000px">```
+
+Permet de spécifier que le fond se sera déplacer de ```-3000px``` lorsque nous aurons "scrollé" 3000px (data-3000) (les valeurs sont choisies ici globalement au hasard).
+
+Cependant, le fond subit également le déplacement vertical "classique", ce qui donne cet effet de déplacement vertical ET horizontal.
+
+Pour régler ce problème, nous allons spécifier que notre fond est "fixe".
+
+**Modifier le CSS pour obtenir :** 
+
+```css
+body { background-image: url("fond.jpg"); background-attachment: fixed}
+```
