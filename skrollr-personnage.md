@@ -97,8 +97,10 @@ Pour faire bouger le personnage, il ne nous reste plus qu'à le déplacer avec l
 
 ```<img src="images/personnage.svg" alt="personnage" id="personnage" data-0="left:10px" data-1500="left:500px">```
 
-
+![1](perso1.webp)
 
 ## Propriétés complémentaires
 
-Opacity
+```opacity:[ 0 à 1 ]``` -> Permet de changer l'opacité, 0 = 0%, 0.3 = 30%,...,1 = 100%
+
+```display:[block, flex, none]``` -> Permet de masquer ou d'afficher un élément
