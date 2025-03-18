@@ -8,12 +8,10 @@ date: 2024
 
 # SkrollR - Faire bouger un fond
 
-## ETAPE 1
-
-- Créer une structure HTML
-- Connecter un fichier CSS
-- Connecter le fichier JS et l'avoir activé (lignes du bas)
-- Avoir une image (un fond ici)
+>- Créer une structure HTML
+>- Connecter un fichier CSS
+>- Connecter le fichier JS et l'avoir activé (lignes du bas)
+>- Avoir une image (un fond ici)
 
 ![image](https://github.com/user-attachments/assets/06c59634-9970-4d7b-9cdb-de7e3b8e3804)
 
@@ -70,4 +68,36 @@ Pour régler ce problème, nous allons spécifier que notre fond est "fixe".
 
 ```css
 body { background-image: url("fond.jpg"); background-attachment: fixed}
+```
+
+Nous obtenons alors ceci :
+
+![2](fond2.webp)
+
+Nous avons un fond qui ne bouge que horizontalement. En jouant avec ```background-position-X``` et ```background-position-Y``, nous pouvons obtenir à peu prêt tous les déplacements possibles.
+
+Si notre fond se répète à lui même, nous pouvons obtenir un fond sans limite hormis la valeur du ```data-```.
+
+## Propriétés complémentaires
+
+> Les valeurs entre crochets sont au choix.
+
+```background-repeat: [repeat | no-repeat | repeat-x | repeat-y]``` Permet de choisir si un fond se répète (par défaut : OUI)
+
+```background-size: [contain | cover]``` Permet de contraindre un background, soit à couvrir la page (taille réelle, agrandissement si besoin) soit à être contenu (l'image sera toujours visible en entier).
+
+Il est possible de changer d'image sur mobile :
+
+```css
+body {
+    background-image: url("fond.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-width:1000px) {
+    body {
+        background-image: url("fond_mobile.jpg");
+    }
+}
 ```
