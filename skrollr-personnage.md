@@ -15,7 +15,7 @@ date: 2024
 
 ![image](https://github.com/user-attachments/assets/36df5b73-a537-4aca-b285-0ab3da0f5e20)
 
-**Voici le code du HTML, nous pouvons y retrouver le lien CSS, le JS et le fond de l'exemple précédent. Nous reviendrons plus tard sur la ```div```**
+**Voici le code du HTML, nous pouvons y retrouver le lien CSS, le JS, le fond de l'exemple précédent et une image.**
 
 ```html
 <!doctype html>
@@ -30,7 +30,7 @@ date: 2024
 </head>
 <body data-0="background-position-X:0px" data-3000="background-position-X:-3000px">
 
-    <div id="personnage"></div>
+    <img src="images/personnage.svg" alt="personnage" id="personnage">
 
 <script src="js/skrollr.js"></script>
 <script type="text/javascript">
@@ -41,64 +41,64 @@ date: 2024
 </html>
 ```
 
-**Voici le code CSS, il ne contient que l'image en background.**
+**Voici le code CSS du personnage**
 
 ```css
-body { background-image: url("fond.jpg")}
+#personnage {
+    height: 400px;
+}
 ```
 
-Nous obtenons pour le moment ceci lorsque nous utilisons la souris : 
+Nous obtenons pour le moment ceci : 
 
-![1](fond1.webp)
+![image](https://github.com/user-attachments/assets/d93c5570-f981-4195-9d46-d9443081427e)
 
 **Revenons sur le code précédent :**
 
-Le CSS permet de mettre une image en arrière plan du ```body```
+L'image que nous avons inséré est au format svg (vectoriel) ce qui va nous permettre de la mettre à la taille de notre choix.
 
-La ligne :
+Elle possède un attribut ```src``` avec le chemin de l'image, un attribut ```alt``` pour l'accessibilité, et un ```id``` pour pouvoir la cibler avec le css.
 
-```<body data-0="background-position-X:0px" data-3000="background-position-X:-3000px">```
+Dans le CSS, nous n'avons pour le moment spécifié qu'une taille, 400px de hauteur, pour notre image. Cette taille peut être librement choisie.
 
-Permet de spécifier que le fond se sera déplacer de ```-3000px``` lorsque nous aurons "scrollé" 3000px (data-3000) (les valeurs sont choisies ici globalement au hasard).
+## Positionner le personnage
 
-Cependant, le fond subit également le déplacement vertical "classique", ce qui donne cet effet de déplacement vertical ET horizontal.
+Pour positionner le personnage à l'emplacement de notre choix, nous allons utiliser la propriété ```position:fixed``` qui permet de positionner un élément à l'emplacement de notre choix.
 
-Pour régler ce problème, nous allons spécifier que notre fond est "fixe".
-
-**Modifier le CSS pour obtenir :** 
+**Voici le nouveau CSS :** 
 
 ```css
-body { background-image: url("fond.jpg"); background-attachment: fixed}
+#personnage {
+    height: 400px;
+    position: fixed;
+    bottom: 20px;
+}
 ```
 
 Nous obtenons alors ceci :
 
-![2](fond2.webp)
+![image](https://github.com/user-attachments/assets/bd1ed483-22d4-437a-97bf-56a6243671a0)
 
-Nous avons un fond qui ne bouge que horizontalement. En jouant avec ```background-position-X``` et ```background-position-Y``, nous pouvons obtenir à peu prêt tous les déplacements possibles.
+Nous avons positionné l'image à 20px du bas (bottom). 
 
-Si notre fond se répète à lui même, nous pouvons obtenir un fond sans limite hormis la valeur du ```data-```.
+Les propriétés qui nous permettent de positionner avec ```position:fixed``` sont les suivantes :
+
+```bottom:...``` -> Distance entre **le bord bas** de l'élément et **le bas** de l'écran
+
+```top:...``` -> Distance entre **le bord haut** de l'élément et **le haut** de l'écran
+
+```left:...``` -> Distance entre **le bord gauche** de l'élément et **la gauche** de l'écran
+
+```right:...``` -> Distance entre **le bord droit** de l'élément et **la droite** de l'écran
+
+## Faire bouger le personnage
+
+Pour faire bouger le personnage, il ne nous reste plus qu'à le déplacer avec les propriétés ci-dessus dans les ```data-```
+
+```<img src="images/personnage.svg" alt="personnage" id="personnage" data-0="left:10px" data-1500="left:500px">```
+
+
 
 ## Propriétés complémentaires
 
-> Les valeurs entre crochets sont au choix.
-
-```background-repeat: [repeat | no-repeat | repeat-x | repeat-y]``` Permet de choisir si un fond se répète (par défaut : OUI)
-
-```background-size: [contain | cover]``` Permet de contraindre un background, soit à couvrir la page (taille réelle, agrandissement si besoin) soit à être contenu (l'image sera toujours visible en entier).
-
-Il est possible de changer d'image sur mobile :
-
-```css
-body {
-    background-image: url("fond.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-@media (max-width:1000px) {
-    body {
-        background-image: url("fond_mobile.jpg");
-    }
-}
-```
+Opacity
