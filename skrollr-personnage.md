@@ -97,7 +97,7 @@ Pour faire bouger le personnage, il ne nous reste plus qu'à le déplacer avec l
 
 ```<img src="images/personnage.svg" alt="personnage" id="personnage" data-0="left:10px" data-1500="left:500px">```
 
-![1](perso1.webp)
+![1](images/perso1.webp)
 
 ## Propriétés complémentaires
 
