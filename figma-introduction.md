@@ -3,7 +3,7 @@ layout: default
 title: Introduction à Figma
 permalink: /figma-introduction/
 published: true
-date: 2024
+date: 2026
 ---
 
 # Introduction à Figma
@@ -20,7 +20,7 @@ Disponible en version web (navigateur), application desktop (Windows/macOS) et a
    - La vérification est gérée par un partenaire (SheerID) : préparez une **carte d'étudiant ou un certificat de scolarité** en cours de validité.
 3. Le statut Éducation est valable **1 an**, renouvelable tant que vous êtes étudiant·e (il faut refaire la demande).
 
-> ⚠️ En cas de refus ou de problème de vérification, l'appel se fait directement auprès du support SheerID (lien fourni dans l'e-mail de réponse).
+> ⚠️ En cas de refus ou de problème de vérification, le recours se fait directement auprès du support SheerID (lien fourni dans l'e-mail de réponse).
 
 ### Pourquoi le compte Éducation ?
  
@@ -31,7 +31,7 @@ Disponible en version web (navigateur), application desktop (Windows/macOS) et a
 | Historique de versions | 30 jours | **Complet** |
 | Équipes / bibliothèques partagées | Limité | **Inclus** |
  
-> Le compte Éducation donne accès aux fonctionnalités du plan Professional. Il est réservé à un **usage pédagogique** : pas de travaux commerciaux ou de missions freelance avec ce compte.
+> Le compte Éducation donne accès aux fonctionnalités de la version professionnelle. Il est réservé à un **usage pédagogique** : pas de travaux commerciaux ou de missions freelance avec ce compte.
 
 Compte gratuit (non étudiant) :<br>
 <img width="1283" height="613" alt="Compte gratuit" src="https://github.com/user-attachments/assets/d1fa4710-63ea-463f-9e13-37d068771c42" />
