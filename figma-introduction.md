@@ -34,10 +34,10 @@ Disponible en version web (navigateur), application desktop (Windows/macOS) et a
 > Le compte Éducation donne accès aux fonctionnalités de la version professionnelle. Il est réservé à un **usage pédagogique** : pas de travaux commerciaux ou de missions freelance avec ce compte.
 
 Compte gratuit (non étudiant) :<br>
-<img width="1283" height="613" alt="Compte gratuit" src="{{ site.baseurl }}/assets/img/figma-gratuit.png" />
+<img class="H_auto" width="1283" height="613" alt="Compte gratuit" src="{{ site.baseurl }}/assets/img/figma-gratuit.png" />
 
 Compte étudiant : <br>
-<img width="212" height="26" alt="Compte étudiant" src="{{ site.baseurl }}/assets/img/figma-etudiant.png" />
+<img class="H_auto" width="212" height="26" alt="Compte étudiant" src="{{ site.baseurl }}/assets/img/figma-etudiant.png" />
 
 ### Figma, pour faire quoi ?
 - **Concevoir des interfaces** multi-plateformes (sites web, applications mobiles, logiciels…).
