@@ -8,7 +8,7 @@ date: 2026
 
 # TP 1 — Prise en main de Figma
 
-> Prérequis : avoir un compte Figma (idéalement Éducation validé) — voir [Introduction à Figma](/figma-introduction/).
+> Prérequis : avoir un compte Figma (idéalement Éducation validé) — voir [Introduction à Figma]({{site.baseurl}}/figma-introduction/).
 
 ## 1 / 6 — Premier projet
 
