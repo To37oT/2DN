@@ -23,4 +23,4 @@ h5+blockquote code { background-color:#ffa}
     .wrapper {max-width: calc(1080px - (30px * 2));}
 }
 
-img { border:#000 solid 1px}
+img { border:#000 solid 1px; margin:20px 0;}
