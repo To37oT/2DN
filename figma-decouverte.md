@@ -12,19 +12,19 @@ date: 2026
 
 ## 1 / 6 — Premier projet
 
-✏ **01 — Créer une nouvelle équipe** (Dnmade)
+✏ **01 — Créer une nouvelle équipe** (Dnmade)<br>
 <img alt="Nouvelle équipe" src="{{ site.baseurl }}/assets/img/figma-tp1-equipe.png" />
 
-✏ **02 — Renommer le dossier par défaut** (`informatique`)
+✏ **02 — Renommer le dossier par défaut** (`informatique`)<br>
 <img alt="Renommer dossier" src="{{ site.baseurl }}/assets/img/figma-tp1-dossier.png" />
 
-✏ **03 — Créer un fichier "Design"** et le nommer immédiatement : `tp01-nom-prenom`
+✏ **03 — Créer un fichier "Design"** et le nommer immédiatement : `tp01-nom-prenom`<br>
 <img alt="Design file" src="{{ site.baseurl }}/assets/img/figma-tp1-design.png" />
 
 ## 2 / 6 — Interface "Design"
-
+<br>
 <img alt="Interface  figma" src="{{ site.baseurl }}/assets/img/figma-interface.png" />
-
+<br>
 🔎 **Le nommage, tout de suite**
 
 ► Il est important de nommer **rapidement** chaque nouvel élément, page, fichier…
