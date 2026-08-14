@@ -22,3 +22,5 @@ h5+blockquote code { background-color:#ffa}
 @media (min-width:1200px) {
     .wrapper {max-width: calc(1080px - (30px * 2));}
 }
+
+img { border:#000 solid 1px}
