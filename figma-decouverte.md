@@ -99,8 +99,32 @@ date: 2026
 
 🔎 **Partager son projet**
 
-- Un simple lien permet de partager le projet, avec gestion des droits (lecture ou édition).
+- Pendant ou à la fin d'un projet, vous aurez besoin de partager votre projet, cela se fait avec le lien "share", il faut bien paramétrer la gestion des droits de l'utilisateur (lecture ou édition).
 
-✏ **Partage**
+- Pour un partage simple en édition (ce que vous aurez besoin de faire pour les rendus) :
+  - Il faut choisir "Anyone" dans la liste déroulante des cibles
+  - Choisir "Edit" dans ce qu'ils peuvent faire
+  - Vous pouvez sécuriser avec un mot de passe si nécessaire (à transmettre avec les rendus dans ce cas)
+  - Sauvegarder la configuration
+  - Sur la fenêtre de partage, désormais le lien (accessible avec "Copy link") permettra d’accéder à votre projet et d'y faire des modifications.
+     
+<img alt="Notifications" src="{{ site.baseurl }}/assets/img/figma-tp1-canedit.png"><br>
+<img alt="Notifications" src="{{ site.baseurl }}/assets/img/figma-tp1-canedit-2.png"><br>
 
-- Partager votre projet en **"can edit"** avec l'adresse indiquée par l'enseignant.
+**N'hésitez pas à tester cette manipulation avec un camarade de confiance**
+
+🔎 **Notification**
+
+- Les notifications peuvent être subtiles si vous ne consultez pas régulièrement l'adresse mail reliée à votre compte. Pensez à regarder la cloche de notification si vous avez un point rouge.
+(si vous oubliez de me donner le droit d'édition, c'est ici que vous aurez ma demande de droit).
+
+<img alt="Notifications" src="{{ site.baseurl }}/assets/img/figma-tp1-notifications.png"><br>
+
+## 7 — Mini projet
+
+Vous allez réaliser un mini projet de page web dans figma : 
+- Une seule page d'accueil à réaliser : Un bandeau, un peu de texte et de contenu sont suffisant
+- Format de la frame : 
+- 
+- 
+
