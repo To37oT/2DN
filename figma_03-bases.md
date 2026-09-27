@@ -48,15 +48,15 @@ Le panneau **Fill** ne se limite pas à la couleur unie. En cliquant sur la vign
 - **Image** : une image vient remplir la forme
 - **Video** : une vidéo vient remplir la forme
 
-► Pour une image ou une vidéo, le mode d'affichage (**Fill / Fit / Crop / Tile**) détermine le cadrage — une notion que vous retrouverez en CSS avec `object-fit`.
+► Pour une image ou une vidéo, le mode d'affichage (**Fill / Fit / Crop / Tile**) détermine le cadrage.
 
 ✏ **Quatre blocs de contenu**
 
 - En vous appuyant sur la grille, créer **4 rectangles de 280 × 200**.
 - Rectangle 1 : une **couleur unie**
-- Rectangle 2 : l'**image fournie**
-- Rectangle 3 : la **vidéo fournie**
-- Rectangle 4 : un **dégradé**
+- Rectangle 2 : <a href="{{ site.baseurl }}/assets/img/figma-tp2-image.jpg">l'**image fournie**</a>
+- Rectangle 3 : <a href="{{ site.baseurl }}/assets/img/figma-tp2-video.mp4">la **vidéo fournie**
+- Rectangle 4 : un **dégradé**s
 - Renommer chaque calque dans le panneau **Layers** (`bloc-couleur`, `bloc-image`…).
 
 <img alt="Quatre blocs de contenu" src="{{ site.baseurl }}/assets/img/figma-tp2-blocs.png" /><br>
@@ -74,6 +74,7 @@ Le panneau **Fill** ne se limite pas à la couleur unie. En cliquant sur la vign
 
 <img alt="Panneau Layers" src="{{ site.baseurl }}/assets/img/figma-tp2-layers.png" /><br>
 
+► **Astuce** : `Ctrl + G`/`Cmd + G` permet de grouper plusieurs éléments sélectionnés.
 ► **Astuce** : maintenir `Ctrl`/`Cmd` en cliquant sur le canvas permet de sélectionner directement un élément imbriqué, sans dérouler le panneau.
 
 ## 5 — Le texte
