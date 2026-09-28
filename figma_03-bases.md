@@ -74,7 +74,7 @@ Le panneau **Fill** ne se limite pas à la couleur unie. En cliquant sur la vign
 
 <img alt="Panneau Layers" src="{{ site.baseurl }}/assets/img/figma-tp2-layers.png" /><br>
 
-► **Astuce** : `Ctrl + G`/`Cmd + G` permet de grouper plusieurs éléments sélectionnés.
+► **Astuce** : `Ctrl + G`/`Cmd + G` permet de grouper plusieurs éléments sélectionnés.<br>
 ► **Astuce** : maintenir `Ctrl`/`Cmd` en cliquant sur le canvas permet de sélectionner directement un élément imbriqué, sans dérouler le panneau.
 
 ## 5 — Le texte
@@ -86,25 +86,43 @@ Le panneau **Fill** ne se limite pas à la couleur unie. En cliquant sur la vign
 - Le panneau **Typography** permet de régler police, graisse, taille, interlignage, interlettrage et alignement.
 - **Vertical trim** supprime l'espace vertical superflu au-dessus et en dessous du texte : très utile pour aligner précisément un titre.
 
+<img alt="Panneau Layers" src="{{ site.baseurl }}/assets/img/figma-tp2-texte.png" /><br>
+
 🔎 **Les styles de texte**
 
 - Un **style** enregistre un réglage typographique pour le réutiliser partout.
 - Intérêt : modifier le style met à jour **tous** les textes qui l'utilisent — indispensable dès qu'un projet grandit.
 - C'est l'ancêtre direct des **variables** et des classes CSS que vous écrirez plus tard.
 
+✏ **Créer et appliquer des styles de texte**
+ 
+- Créer trois blocs de texte : un **titre**, un **sous-titre**, un **paragraphe**, avec des réglages typographiques différents.
+- Pour chacun : le sélectionner, puis dans le panneau **Typography**, cliquer sur l'icône **styles** (les quatre points) → **`+`** → nommer le style (`titre`, `sous-titre`, `corps`).
+- Dupliquer les trois blocs **quatre fois** sur la frame.
+- Modifier maintenant le style `titre` (taille ou couleur) depuis le panneau des styles : **tous** les titres se mettent à jour d'un coup.
+
+► Imaginez la même modification à faire à la main sur un site de 20 pages : c'est tout l'intérêt des styles.
+
 ## 6 — Plugins et faux texte
 
 🔎 **Les plugins**
 
 - Les **plugins** sont des outils complémentaires, proposés par Figma et par la communauté.
-- Accès : barre d'outils → icône plugins, ou **Quick actions** avec `Ctrl`/`Cmd` + `/` puis le nom du plugin.
+- Accès : barre d'outils → icône plugins, ou **Quick actions** avec `Ctrl`/`Cmd` + `:` puis le nom du plugin.
 - ⚠️ Un plugin peut disparaître ou cesser d'être maintenu : ne jamais rendre un projet dépendant d'un plugin.
 
 🔎 **Le faux texte (Lorem Ipsum)**
 
 - Le **Lorem Ipsum** est un texte de substitution : il permet de juger la mise en page sans être distrait par le contenu.
-- Plusieurs plugins le génèrent (`Loremzer`, `Lorem Ipsum`…) : ils demandent un **nombre** et un **type** (mots, phrases, paragraphes — `Tab` pour changer).
+- Plusieurs plugins le génèrent (`Loremzer`, `Lorem Ipsum`…) : ils demandent un **nombre** et un **type** (mots, phrases, paragraphes,...).
 - ⚠️ Il faut **éditer le bloc de texte** (double-clic) avant d'appliquer le plugin, sinon rien ne s'insère.
+
+✏ **Générer du faux texte**
+ 
+- Installer un plugin de Lorem Ipsum depuis la communauté Figma (`Loremzer`, `Lorem Ipsum`…).
+- Créer un bloc de texte de **4 colonnes** de large, lui appliquer votre style `corps`.
+- Double-cliquer dans le bloc pour l'**éditer**, puis lancer le plugin et générer **2 paragraphes**.
+- Générer ensuite **5 mots** dans un second bloc, auquel vous appliquerez votre style `titre`.
 
 ► **À retenir pour le projet** : le faux texte sert à maquetter vite, mais un contenu réel change une mise en page. Un vrai titre est plus long qu'un « Lorem ipsum dolor » — anticipez.
 
@@ -129,7 +147,7 @@ Le panneau **Fill** ne se limite pas à la couleur unie. En cliquant sur la vign
 - Le texte doit conserver une **marge de 30px** avec le bloc de couleur (utiliser les tailles et les coordonnées).
 - Utiliser **vertical trim** pour ajuster la hauteur de ligne.
 
-<img alt="Bloc de texte sur bloc de couleur" src="{{ site.baseurl }}/assets/img/figma-tp2-texte.png" /><br>
+<img alt="Bloc de texte sur bloc de couleur" src="{{ site.baseurl }}/assets/img/figma-tp2-lorem.png" /><br>
 
 ✏ **Créer un bloc personnalisé**
 
@@ -206,9 +224,11 @@ Les opérations booléennes combinent plusieurs formes en une seule (comme le Pa
 - Créer deux carrés qui se chevauchent et tester **les quatre opérations** (union, subtract, intersect, exclude).
 - Nommer chaque résultat dans le panneau Layers.
 
+<img alt="Masque avec barres" src="{{ site.baseurl }}/assets/img/figma-tp2-boolean.png" /><br>
+
 ## Rendu
 
 - Renommer et organiser tous vos calques.
 - Créer un point d'historique `rendu-tp02` (`Ctrl`/`Cmd` + `Alt` + `S`).
 - Partager le fichier en édition (*Share → Share settings → Anyone → Edit → Save*) et déposer le lien sur itslearning.
-- Vérifier le lien avec un camarade avant de le déposer.
+- Vérifier éventuellement le lien avec un camarade avant de le déposer.
