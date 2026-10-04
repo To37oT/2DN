@@ -6,9 +6,9 @@ published: true
 date: 2026
 ---
 
-# TP 2 — Blocs de contenu
+# TP 3 — Blocs de contenu
 
-> Prérequis : avoir suivi le [TP 1 — Prise en main de Figma]({{site.baseurl}}/figma-decouverte/).
+> Prérequis : avoir suivi le [TP 2 — Prise en main de Figma]({{site.baseurl}}/figma-decouverte/).
 >
 > Vous savez normalement :
 > - Créer une équipe, un dossier et un document
