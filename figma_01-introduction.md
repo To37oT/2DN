@@ -6,7 +6,7 @@ published: true
 date: 2026
 ---
 
-# Introduction à Figma
+# TP 1 - Introduction à Figma
 
 ## Accès à l'application : 
 [https://www.figma.com/fr-fr/](https://www.figma.com/fr-fr/)
