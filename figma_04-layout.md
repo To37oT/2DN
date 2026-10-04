@@ -6,9 +6,9 @@ published: true
 date: 2026
 ---
 
-# TP 3 — Auto layout
+# TP 4 — Auto layout
 
-> Prérequis : avoir suivi le [TP 2 — Blocs de contenu]({{site.baseurl}}/figma-blocs-de-contenu/).
+> Prérequis : avoir suivi le [TP 3 — Blocs de contenu]({{site.baseurl}}/figma-blocs-de-contenu/).
 >
 > Vous savez normalement :
 > - Créer des formes et des blocs de texte
