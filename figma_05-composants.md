@@ -6,9 +6,9 @@ published: true
 date: 2026
 ---
 
-# TP 4 — Composants et variantes
+# TP 5 — Composants et variantes
 
-> Prérequis : avoir suivi le [TP 3 — Auto layout]({{site.baseurl}}/figma-auto-layout/).
+> Prérequis : avoir suivi le [TP 4 — Auto layout]({{site.baseurl}}/figma-auto-layout/).
 >
 > Vous savez normalement :
 > - Créer des masques et des formes personnalisées
