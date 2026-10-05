@@ -19,7 +19,7 @@ date: 2026
 
 ✏ **Créer le fichier**
 
-- Dans votre dossier `informatique`, créer un nouveau fichier Design nommé `tp03-nom-prenom`.
+- Dans votre dossier `informatique`, créer un nouveau fichier Design nommé `tp04-nom-prenom`.
 - Renommer la page en `auto-layout`.
 
 ► Ces manipulations ont été vues aux TP précédents : à vous de les retrouver.
