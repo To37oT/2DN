@@ -20,7 +20,7 @@ date: 2026
 
 ✏ **Créer le fichier**
 
-- Dans votre dossier `informatique`, créer un nouveau fichier Design nommé `tp02-nom-prenom`.
+- Dans votre dossier `informatique`, créer un nouveau fichier Design nommé `tp03-nom-prenom`.
 - Créer une frame **Desktop 1280**, nommée `accueil`.
 - Ajouter une grille : **12 colonnes, centrée, largeur 80, gouttière 20**.
 - Renommer la page en `blocs-de-contenu`.
