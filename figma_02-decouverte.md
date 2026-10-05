@@ -18,7 +18,7 @@ date: 2026
 ✏ **02 — Renommer le dossier par défaut** (`informatique`)<br>
 <img alt="Renommer dossier" src="{{ site.baseurl }}/assets/img/figma-tp1-dossier.png" />
 
-✏ **03 — Créer un fichier "Design"** et le nommer immédiatement : `tp01-nom-prenom`<br>
+✏ **03 — Créer un fichier "Design"** et le nommer immédiatement : `tp02-nom-prenom`<br>
 <img alt="Design file" src="{{ site.baseurl }}/assets/img/figma-tp1-design.png" />
 
 ## 2 — Interface "Design"
