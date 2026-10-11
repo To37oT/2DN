@@ -12,7 +12,7 @@ date: 2024
 [Partie 3 : Les bases]({{site.baseurl}}/figma-blocs-de-contenu/)<br>
 [Partie 4 : Layout]({{site.baseurl}}/figma-auto-layout/)<br>
 [Partie 5 : Les composants]({{site.baseurl}}/figma-composants/)<br>
-[projet]({{site.baseurl}}/figma-mini-projet/)<br>
+[PROJET - Repair Café]({{site.baseurl}}/figma-mini-projet/)<br>
 
 <!--[Partie 4 : Champs, variables et calculs]({{site.baseurl}}/figma4/)<br>
 [PROJET : Réalisation d'un portfolio sur Figma]({{site.baseurl}}/figma_projet/)<br>-->
